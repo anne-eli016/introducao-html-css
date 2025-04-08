@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');/*Importando fonte da letra*/
+
+*{ /*Resetar o site (tirar a margem)*/
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+h1{
+    color: rgb(100, 171, 237); /*Mudando a cor das letras*/
+    /*"text-align: center;" colocar dentro da mesma chave (dentro da chave do título) alinha cada linha individualmente*/
+    text-align: center; /*Alinhar o texto (posição)*/
+}
+
+h2{
+    color: #e64b6a;
+    text-align: center; 
+}
+
+h3{
+    color: #4be6b2;
+    text-align: center; 
+}
+
+h4{
+    color: #9f03e7;
+    text-align: center; 
+}
+
+p{
+    color: #f3d426;
+    text-align: center; /
+}
+
+body{
+    background-color: #000; /*Mudando a cor do fundo da tela*/
+    font-family: "Limelight", sans-serif; /*Fonte da letra*/
+}
